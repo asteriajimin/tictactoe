@@ -76,9 +76,11 @@ public static char checkWinner(){
     if(line.equals("XXX")){
         winner = 'X';
         System.out.println("X wins");
+        return winner;
     }else if(line.equals("OOO")){
         winner = 'O';
         System.out.println("O wins");
+        return winner;
     }else {
         winner = ' ';
     }
